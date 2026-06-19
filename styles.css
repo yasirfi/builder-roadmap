@@ -7,7 +7,7 @@ box-sizing:border-box;
 }
 
 
-/* Entire page */
+/* Whole page */
 
 body{
 
@@ -27,7 +27,7 @@ min-height:100vh;
 }
 
 
-/* Hero title */
+/* Hero */
 
 h1{
 
@@ -35,28 +35,28 @@ font-size:72px;
 
 font-weight:700;
 
-line-height:1;
-
 letter-spacing:-3px;
+
+line-height:1;
 
 max-width:800px;
 
 }
 
 
-/* Paragraph */
+/* Description */
 
 p{
 
-margin-top:32px;
+margin-top:24px;
 
 font-size:24px;
 
-color:rgba(255,255,255,.7);
+line-height:1.5;
+
+color:rgba(255,255,255,.65);
 
 max-width:600px;
-
-line-height:1.5;
 
 }
 
@@ -72,19 +72,19 @@ margin-top:48px;
 padding:16px 28px;
 
 
-background:white;
-
-
-color:black;
-
-
 border:none;
 
 
 border-radius:999px;
 
 
-font-size:18px;
+background:white;
+
+
+color:black;
+
+
+font-size:16px;
 
 
 font-weight:600;
@@ -93,14 +93,17 @@ font-weight:600;
 cursor:pointer;
 
 
-transition:.25s;
+transition:all .2s ease;
 
 
 }
 
 
+
 button:hover{
 
 opacity:.85;
+
+transform:translateY(-2px);
 
 }
